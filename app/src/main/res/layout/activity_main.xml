@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_above="@id/dialog"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/dialog"
+        android:layout_width="match_parent"
+        android:background="#2196F3"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konum Secmeye Basla"
+            android:id="@+id/button" />
+
+        <TextView
+            android:id="@+id/subText"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/haritaYukleniyor"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

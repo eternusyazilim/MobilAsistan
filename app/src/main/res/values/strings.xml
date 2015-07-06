@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mobil Asistan</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="haritaYukleniyor">Harita Yukleniyor..</string>
+    <string name="title_activity_konumlar">Konumlar</string>
+</resources>
